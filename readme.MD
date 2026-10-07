@@ -22,7 +22,7 @@ This microservice is responsible for:
 
 ## Docker guideline
 ### Build docker image
-`docker build -t <account>/identity-service:0.9.0 .`
+`docker buildx build -t <account>/identity-service:0.9.0 .`
 ### Push docker image to Docker Hub
 `docker image push <account>/identity-service:0.9.0`
 ### Create network:
